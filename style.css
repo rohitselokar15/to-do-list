@@ -1,0 +1,57 @@
+body{
+    background-color: whitesmoke;
+}
+
+.container{
+    width: 610px;
+    padding: 12px;
+    text-align: center;
+    background-color: #fff;
+    margin-left: 25%;
+    margin-top: 63px;
+}
+
+.top-list{
+    background-color: red;
+    color: white;
+    padding: 8px;
+}
+
+input{
+    width: 490px;
+    padding: 9px;
+    padding-bottom: 10px;
+    border: none;
+}
+
+button{
+    padding: 9px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width: 80px;
+    cursor: pointer;
+}
+
+.text ul{
+    position: relative;
+    background-color: #E6E6FA;
+    color: black;
+    font-size: 19px;
+    text-align: left;
+    padding: 9px;
+}
+
+.text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:550px){
+    .container{
+        margin: 10px;
+    }
+}
+
